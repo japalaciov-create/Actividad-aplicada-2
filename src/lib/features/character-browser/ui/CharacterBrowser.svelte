@@ -9,7 +9,7 @@
 
 <section class="hero">
 	<div class="eyebrow">SvelteKit · Rick and Morty</div>
-	<h1>Arquitectura frontend lista para crecer sin mezclar UI con negocio.</h1>
+	<h1>Descripción de todos los personajes de Rick y Morty, para que aprendas sobre ellos.</h1>
 	<p>
 		Base feature-first/domain-first con contratos claros entre pantalla, dominio y API.
 	</p>
@@ -19,7 +19,7 @@
 	<CharacterSearch query={data.query} onQueryChange={onQueryChange} />
 
 	<div class="meta">
-		<p>{data.total} personajes</p>
+		<p>{data.total} Elenco </p>
 		{#if data.error}
 			<p class="error">{data.error}</p>
 		{/if}
